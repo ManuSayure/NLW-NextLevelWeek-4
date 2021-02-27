@@ -115,7 +115,7 @@ export function ChallengesProvider({
         <ChallengesContext.Provider 
             value={{
 
-                level:1,                 
+                level,                 
                 currentExperience, 
                 activeChallenge,
                 challengesCompleted,
