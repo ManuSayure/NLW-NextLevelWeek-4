@@ -15,15 +15,7 @@
     text-align: center;
 
 };
-.challengeBoxContainer  div{
-    flex: 1;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    text-align: center;
-}
 
 .challengerNotActive{
     display: flex;
