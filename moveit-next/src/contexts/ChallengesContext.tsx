@@ -35,9 +35,7 @@ interface ChallengesProviderProps{
 
 export function ChallengesProvider({ 
     children,
-    ...rest
-    
-} : ChallengesProviderProps){
+    ...rest } : ChallengesProviderProps){
 
     const [level, setLevel] = useState(rest.level ?? 1);
     const [currentExperience, setCurrenteExperience] = useState(rest.currentExperience ?? 0);
