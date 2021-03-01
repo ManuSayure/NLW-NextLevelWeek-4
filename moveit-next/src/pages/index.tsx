@@ -42,9 +42,9 @@ export default function Home(props: HomeProps) {
                 <CompleteChallenges/>
                 <Countdown/>
               </div>
-                <div>
+              <div>
                   <ChallengeBox/>
-                </div>
+              </div>
             </section>
 
           </CountdownProvider>   
